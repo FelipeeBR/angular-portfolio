@@ -23,5 +23,61 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt:'Projeto',
+      title: 'Projeto',
+      width: '100px',
+      heigth: '51px',
+      description: '',
+      links: [
+        {
+          name: 'Conheça o Blog',
+          href: 'https://github.com/FelipeMendesN/blog',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt:'Projeto',
+      title: 'Projeto',
+      width: '100px',
+      heigth: '51px',
+      description: '',
+      links: [
+        {
+          name: 'Conheça o Blog',
+          href: 'https://github.com/FelipeMendesN/blog',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt:'Projeto',
+      title: 'Projeto',
+      width: '100px',
+      heigth: '51px',
+      description: '',
+      links: [
+        {
+          name: 'Conheça o Blog',
+          href: 'https://github.com/FelipeMendesN/blog',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt:'Projeto',
+      title: 'Projeto',
+      width: '100px',
+      heigth: '51px',
+      description: '',
+      links: [
+        {
+          name: 'Conheça o Blog',
+          href: 'https://github.com/FelipeMendesN/blog',
+        },
+      ],
+    },
   ])
 }
