@@ -15,72 +15,30 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt:'Projeto',
-      title: 'What is Lorem Ipsum?',
+      src: 'assets/img/projects/spring-boot.png',
+      alt:'Sistema de Microsserviços com Spring Boot',
+      title: 'Sistema de Microsserviços com Spring Boot',
       width: '100px',
       heigth: '51px',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries',
+      description: 'Este projeto demonstra a construção de uma arquitetura baseada em microsserviços usando Java com Spring Boot, Docker e PostgreSQL. Ele foi desenvolvido com base nos conceitos abordados Back-end Java Microsserviços, Spring Boot e Kubernetes.',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/FelipeMendesN/blog',
+          name: 'Mais detalhes',
+          href: 'https://github.com/FelipeeBR/Backend_Java_Microsservicos',
         },
       ],
     },
     {
-      src: 'assets/img/projects/vfull.png',
-      alt:'Projeto',
-      title: 'Projeto',
+      src: 'assets/img/projects/laravel.png',
+      alt:'GestorEase',
+      title: 'GestorEase',
       width: '100px',
       heigth: '51px',
-      description: '',
+      description: 'Este projeto demonstra a construção de Sistema para gerenciar pizzaria utilizando AdminLTE e Laravel',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/FelipeMendesN/blog',
-        },
-      ],
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt:'Projeto',
-      title: 'Projeto',
-      width: '100px',
-      heigth: '51px',
-      description: '',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/FelipeMendesN/blog',
-        },
-      ],
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt:'Projeto',
-      title: 'Projeto',
-      width: '100px',
-      heigth: '51px',
-      description: '',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/FelipeMendesN/blog',
-        },
-      ],
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt:'Projeto',
-      title: 'Projeto',
-      width: '100px',
-      heigth: '51px',
-      description: '',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/FelipeMendesN/blog',
+          name: 'Mais detalhes',
+          href: 'https://github.com/FelipeeBR/gestorease',
         },
       ],
     },
